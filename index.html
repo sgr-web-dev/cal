@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="icon" href="logo/cal.logo.png" type="image/icon type">
+  <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+  <div class="js-display-result display_css">
+   0
+</div>
+  <p>
+    <button class="common_css num_btn" onclick="btn_fn('7')">7</button>
+    <button class="common_css num_btn" onclick="btn_fn('8')">8</button>
+    <button class="common_css num_btn" onclick="btn_fn('9')">9</button>
+    <button class="common_css operator_btn" onclick="btn_fn('*')">*</button>
+  </p>
+  <p>
+    <button class="common_css num_btn" onclick="btn_fn('4')">4</button>
+    <button class="common_css num_btn" onclick="btn_fn('5')">5</button>
+    <button class="common_css num_btn" onclick="btn_fn('6')">6</button>
+    <button class="common_css operator_btn" onclick="btn_fn('-')">-</button>
+  </p>
+  <p>
+    <button class="common_css num_btn" onclick="btn_fn('3')">3</button>
+    <button class="common_css num_btn" onclick="btn_fn('2')">2</button>
+    <button class="common_css num_btn" onclick="btn_fn('1')">1</button>
+    <button class="common_css operator_btn"onclick="btn_fn('+')">+</button>
+  </p>
+  <p>
+    <button class="common_css num_btn" onclick="btn_fn('0')">0</button>
+    <button class="common_css operator_btn"onclick="btn_fn('.')">.</button>
+    <button class="common_css operator_btn"onclick="btn_fn('/')">/</button>
+    <button class="common_css eql_btn" onclick="evalVal();">=</button>
+  </p>
+  <p>
+    <button class="clear_btn" onclick="resetVal();">AC</button>
+  </p>
+
+  <script src="cal.js"></script>
+</body>
+</html>
